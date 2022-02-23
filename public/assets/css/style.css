@@ -1,0 +1,123 @@
+body {
+    background: #ffddd2;
+    color: #006d77;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    background: #edf6f9;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+main {
+    background: #edf6f9;
+    padding: 20px;
+}
+
+main div {
+    background: #83c5be;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#lazmand {
+}
+
+#rbelme {
+}
+
+#badalal {
+}
+
+#jedasilva {
+}
+
+#ddawar1 {
+}
+
+#jdraper1 {
+}
+
+#lelangovan {
+}
+
+#dfilipovic1 {
+}
+
+#fhassanzadeh-naderi {
+}
+
+#gjones11 {
+}
+
+#ljong1 {
+}
+
+#fkeita {
+}
+
+#rlaronde {
+}
+
+#kklee14 {
+}
+
+#amanda.lutz {
+}
+
+#dpmarquez {
+}
+
+#bjmartin-leon {
+}
+
+#jmorash {
+}
+
+#ssraiba {
+}
+
+#isantiago-gonzalez {
+}
+
+#asantiago-rossetti {
+}
+
+#hsoleymaniha {
+}
+
+#trushtika {
+}
+
+footer {
+    text-align: center;
+    background: #ffddd2;
+    color: #e29578;
+    padding: 40px;
+    border-top: 2px solid #e29578;
+}
+
+@media (min-width: 650px) {
+    main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    main p {
+        width: 100%;
+    }
+    main div {
+        width: calc(33.3333% - 50px);
+    }
+}
