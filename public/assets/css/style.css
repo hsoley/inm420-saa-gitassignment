@@ -35,6 +35,10 @@ main div {
 }
 
 #rbelme {
+    background-color: lightslategrey;
+    color: azure;
+    text-decoration: underline;
+    border: groove 10px white;
 }
 
 #badalal {
