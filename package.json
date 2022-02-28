@@ -9,9 +9,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AmandaLutzTO/inm420-git-assignment.git"
+    "url": "git+https://github.com/AmandaLutzTO/inm420-git-assignment.git"
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/AmandaLutzTO/inm420-git-assignment/issues"
+  },
+  "homepage": "https://github.com/AmandaLutzTO/inm420-git-assignment#readme",
+  "main": "index.js"
 }
