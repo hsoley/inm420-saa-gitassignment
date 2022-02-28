@@ -1,44 +1,44 @@
 body {
-    background: #ffddd2;
-    color: #006d77;
-    font-family: "Montserrat", sans-serif;
+  background: #ffddd2;
+  color: #006d77;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
-    background: #edf6f9;
-    text-align: center;
-    padding: 40px;
+  background: #edf6f9;
+  text-align: center;
+  padding: 40px;
 }
 
 header h1 {
-    font-weight: 300;
-    font-size: 24px;
+  font-weight: 300;
+  font-size: 24px;
 }
 
 p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 main {
-    background: #edf6f9;
-    padding: 20px;
+  background: #edf6f9;
+  padding: 20px;
 }
 
 main div {
-    background: #83c5be;
-    padding: 20px;
-    margin-bottom: 10px;
-    text-align: center;
+  background: #83c5be;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 #lazmand {
 }
 
 #rbelme {
-    background-color: lightslategrey;
-    color: azure;
-    text-decoration: underline;
-    border: groove 10px white;
+  background-color: lightslategrey;
+  color: azure;
+  text-decoration: underline;
+  border: groove 10px white;
 }
 
 #badalal {
@@ -51,17 +51,24 @@ main div {
 }
 
 #jdraper1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 60px;
+  color: darkred;
+  text-shadow: 2px 2px #ff0000;
+  background-image: url("/assets/images/Jay Draper.jpg");
+  background-position: bottom 220px right 0px;
+  background-size: 100%;
 }
 
 #lelangovan {
 }
 
 #dfilipovic1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-style: italic;
-    font-size: 30px;
-    background-image: url("https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg");
-    background-color: #e29578;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  background-image: url("https://ngs-it.com/files/course/Backgrounds_in_CSS.jpg");
+  background-color: #e29578;
 }
 
 #fhassanzadeh-naderi {
@@ -89,9 +96,9 @@ main div {
 }
 
 #bjmartin-leon {
-    background-color: #6cd0ff;
-    color: white;
-    border: 2px dashed white;
+  background-color: #6cd0ff;
+  color: white;
+  border: 2px dashed white;
 }
 
 #jmorash {
@@ -113,23 +120,23 @@ main div {
 }
 
 footer {
-    text-align: center;
-    background: #ffddd2;
-    color: #e29578;
-    padding: 40px;
-    border-top: 2px solid #e29578;
+  text-align: center;
+  background: #ffddd2;
+  color: #e29578;
+  padding: 40px;
+  border-top: 2px solid #e29578;
 }
 
 @media (min-width: 650px) {
-    main {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    main p {
-        width: 100%;
-    }
-    main div {
-        width: calc(33.3333% - 50px);
-    }
+  main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  main p {
+    width: 100%;
+  }
+  main div {
+    width: calc(33.3333% - 50px);
+  }
 }
