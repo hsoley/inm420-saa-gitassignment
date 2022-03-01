@@ -32,6 +32,10 @@ main div {
 }
 
 #lazmand {
+  background-color: sandybrown;
+  font-family: Verdana;
+  color: black;
+  text-shadow: 0 0 3px #bdbdbd;
 }
 
 #rbelme {
